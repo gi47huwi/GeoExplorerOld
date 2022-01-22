@@ -2,6 +2,7 @@
     include_once 'header.php';
 ?>
 
+<h2> Kontakt: </h2>
 
      
 

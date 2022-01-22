@@ -1,6 +1,5 @@
 
 
-
 //TODO: writing method for route name input
 
 function getRouteName(){
@@ -32,6 +31,12 @@ window.addEventListener('load', function () {
         center: [10.9027636,49.8988135],
         zoom: 12
     });
+    map.addControl(
+        new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+        })
+        );
 
     map.addControl(
         new mapboxgl.GeolocateControl({

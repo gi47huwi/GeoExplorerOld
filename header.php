@@ -11,10 +11,13 @@
         
         
     </head>
+    <ul class="navigation">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="main.php">Eingabe</a></li>
+        <li><a href="#">Exkursion starten</a></li>
+        <li><a href="contact.php">Kontakt</a></li>
+    </ul>
 
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div> 
+    
+
+    <body>
