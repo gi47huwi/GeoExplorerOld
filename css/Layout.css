@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#map {
+    width: 80%;
+    height: 100vh;
+    position: relative;
+    float:right;
+}
+
+
+#inputTypes{
+    text-align: center;
+    width:20%;
+    height: 100vh;
+    line-height: 2;
+    position:relative;
+    float:left;
+    visibility:hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Coordinates{
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+
+#menu {
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+    
+          
