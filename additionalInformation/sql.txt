@@ -5,3 +5,15 @@ create table persons (
     email varchar(50) not null,
     passworHash BINARY(64) not null
 );
+
+create table points(
+	PointId int(255) not null PRIMARY KEY AUTO_INCREMENT,
+    PointName varchar(30) not null,
+    PointContent varchar(100) not null,
+    PersonenId int(100) not null,
+    FOREIGN KEY (PersonenId)
+    	REFERENCES persons (PersonenId),
+    RoutenId int(100) not null,
+    FOREIGN KEY(RoutenId)
+    	REFERENCES routen(RoutenId)
+);
