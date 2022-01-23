@@ -1,9 +1,9 @@
 <?php
-    include_once 'header_empty.php';
+    include_once 'header.php';
 ?>
 
 <h2> Please log in <h2>
-<form>
+<form action="includes/signup.inc.php">
     <input type="text" name = "vorname" placeholder="Vorname"><br>
     <input type="text" name = "nachname" placeholder="Nachname"><br>
     <input type="email" name = "e-mail" placeholder="E-Mail Adresse"><br>
