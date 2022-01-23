@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    text-align: center;
 }
 
 #map {
@@ -83,6 +84,12 @@ body {
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     font-family: 'Open Sans', sans-serif;
+}
+
+form{
+    font-size: xx-large ;
+    display: inline-block;
+    margin-top: 20vh;
 }
     
           

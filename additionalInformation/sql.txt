@@ -1,0 +1,7 @@
+create table persons (
+	id int(100) not null PRIMARY KEY AUTO_INCREMENT,
+    firstname varchar(25) not null,
+    lastname varchar(30) not null,
+    email varchar(50) not null,
+    passworHash BINARY(64) not null
+);

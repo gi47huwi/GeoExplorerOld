@@ -1,14 +1,14 @@
 <?php
-    include_once 'header.php';
+    include_once 'header_empty.php';
 ?>
 
-
+<h2> Please log in <h2>
 <form>
     <input type="text" name = "vorname" placeholder="Vorname"><br>
     <input type="text" name = "nachname" placeholder="Nachname"><br>
     <input type="email" name = "e-mail" placeholder="E-Mail Adresse"><br>
     <input type="password" name = "pwd" placeholder="Passwort"><br>
-    <input type="password" name = "pwd-repeat" placeholder="Passwort wiederholen"><br>
+    <button type="submit" name="login">Log In </button>
 </form>
 
 
