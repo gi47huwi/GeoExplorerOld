@@ -1,6 +1,13 @@
 <?php
-    include_once 'header.php';
+include_once 'header.php';
+if (isset($_Post["submit]"])){
+    echo "It worked";
+}else{
+    header("location: index.php");
+}
+
 ?>
+
 
 <div id="inputTypes" name="inputType">
             <form>
