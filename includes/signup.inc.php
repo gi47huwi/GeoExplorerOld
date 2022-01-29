@@ -7,7 +7,6 @@ if(isset($_POST["submit"])){
     $email = $_POST["email"];
     $pwd = $_POST["pwd"];
 
-    header("location: ../main.php")
     require_once 'dhb.inc.php';
     require_once 'functions.inc.php';
     
